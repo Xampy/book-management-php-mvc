@@ -1,0 +1,35 @@
+#menu-primary {
+	width: 100%;
+	height: 70px;
+	background-color: #8610EE;
+	color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 1000;
+}
+
+#menu-primary-brand {
+	font-size: 2em;
+	margin-left: 30px;
+}
+
+#menu-primary-links {
+
+}
+
+#menu-primary-links span{
+	margin-right: 20px;
+	font-size: 1.2em;
+}
+
+.menu-link{
+	font-size: 1.2em;
+	text-decoration: none;
+	cursor: pointer;
+	color: white
+}

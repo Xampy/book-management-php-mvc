@@ -1,0 +1,57 @@
+#auth-data-container {
+	margin: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+form {
+	width: 50%;
+	padding: 20px;
+	border-radius: 10px;
+	margin-top: 10px;
+	border: 1px solid whitesmoke;
+}
+
+
+.form-group {
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+	width: 100%;
+}
+
+label {
+	font-size: 1.2em;
+	margin-top: 20px;
+}
+
+.form-control {
+	margin-top: 20px;
+	border: 1px solid black;
+	padding: 10px;
+	width: 90%;
+	border-radius: 10px;
+}
+
+.submit-btn {
+	background-color: green;
+	color: white;
+	border: 1px solid green;
+	color: white;
+	font-size: 1.2em;
+	cursor: pointer;
+	width: 100%;
+}
+
+input[type='submit'] {
+	background-color: #8610EE;
+	color: white;
+	border: 1px solid #8610EE;
+	color: white;
+	font-size: 1.2em;
+	cursor: pointer;
+	width: 100%;
+	padding: 10px;
+	border-radius: 10px;
+}

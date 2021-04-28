@@ -1,0 +1,55 @@
+
+#items-list-container {
+	width: 100%;
+}
+
+#items-list-container table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#items-list-container table thead {
+	text-align: left;
+}
+
+#items-list-container table thead th {
+	padding-bottom: 7px;
+	padding-top: 7px
+}
+
+.item-row td {
+	padding-top: 7px;
+	padding-bottom: 7px;
+	border-top: 1px solid whitesmoke;
+}
+
+.item-update-link, .item-delete-link {
+	padding: 7px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 5px;
+	border-radius: 10px;
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+}
+
+.item-update-link {
+	background-color: blue;
+}
+
+.item-delete-link {
+	background-color: red;
+	border: none;
+}
+
+
+.book-action-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.delete-book-from {
+	margin-left: 10px;
+}
